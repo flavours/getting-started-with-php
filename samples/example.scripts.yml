@@ -1,0 +1,17 @@
+# You can also add post-install scripts which will be run
+# automatically after installation. These post-install
+# should contain actions in ADDITION to the similar composer
+# functionality. If a package already includes post-install
+# scripts that are added to your composer.json, you will not
+# need to replay them here
+
+version: 0.1
+install:
+  package: spatie/laravel-permission:v0.2.37
+  post-install:
+    script:
+     - php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="migrations"
+     - php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="config"
+meta:
+  name: flavour/spatie/laravel-permission
+  version: v0.2.37

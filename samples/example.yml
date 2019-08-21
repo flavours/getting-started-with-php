@@ -1,0 +1,10 @@
+# this file is a default sample with no special behaviour
+# except that it is a laravel extension and should therefor
+# be installed with the laravel manager instead of php.
+
+version: 0.1
+install:
+  package: spatie/laravel-permission:v0.2.37
+meta:
+  name: flavour/spatie/laravel-permission
+  version: v0.2.37

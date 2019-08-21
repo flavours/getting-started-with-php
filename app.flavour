@@ -1,0 +1,5 @@
+meta:
+    name: my-demo-php-project
+    version: 0.1
+version: 0.1
+addons: {  }
