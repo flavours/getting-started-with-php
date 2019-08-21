@@ -46,5 +46,3 @@ flavour remove composer/package-namespace/package-name
 ## References
 
 * Flavour CLI: https://www.npmjs.com/package/@flavour/cli
-* fam-php: https://gitlab.com/divio/flavour/addon-managers/fam-php
-* fam-php-laravel: https://gitlab.com/divio/flavour/addon-managers/fam-php-laravel
