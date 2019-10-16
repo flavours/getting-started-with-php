@@ -5,7 +5,7 @@
 # scripts that are added to your composer.json, you will not
 # need to replay them here
 
-version: 0.1
+spec: 0.1
 install:
   package: spatie/laravel-permission:v0.2.37
   post-install:

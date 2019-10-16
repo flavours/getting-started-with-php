@@ -1,6 +1,6 @@
 # adding `mode: dev` will install to require-dev instead of require
 
-version: 0.1
+spec: 0.1
 install:
   package: barryvdh/laravel-debugbar:v3.2.4
   mode: dev
